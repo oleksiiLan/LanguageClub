@@ -1,16 +1,18 @@
-
-
+body{
+    max-width: 800px;
+    margin: auto;
+}
 header img {
     float: left;
     width: 50%;
     height: 35%;
 }
 
-img {
-    width: 65%;
-    height: 55%;
-}
+header img ul{
 
+    justify-content: space-around;
+    align-items: center;
+}
 main {
     text-align: center;
 }
@@ -22,12 +24,16 @@ main {
     border: 2px solid rgb(252, 254, 255);
     border-radius: 30px 30px;
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
     background-color: rgb(255, 255, 255);
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: left;
 }
 
+
 #navbar li {
-    display: inline;
+    display: block;
 }
 
 #navbar a {
@@ -67,7 +73,7 @@ h3 {
     font: normal 32px arial;
 }
 
-#man {
+#logo-buttons {
     margin: 10px;
     background: rgb(255, 255, 255);
     padding: 20px;
